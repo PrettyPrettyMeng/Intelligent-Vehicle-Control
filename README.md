@@ -1,3 +1,6 @@
 # CyberTORCS-Intelligent-Vehical-Control
-Achieved path design, self-following and self-parking intelligent vehicalon control algorithm design and implementation 
-on the platform of CyberTORCS
+Designed control algorithms for intelligent vehical on the platform of CyberTORCS: 
+1. leading car path design
+2. self-following 
+3. self-parking 
+
