@@ -3,7 +3,7 @@
                  file : driver_cruise.cpp
              author : Jiayue Bao
              email : lily.jybao@sjtu.edu.cn
-             created: 2015/03/05
+             created: 2016/03/05
     description : user module for CyberFollow
 
  ***************************************************************************/
