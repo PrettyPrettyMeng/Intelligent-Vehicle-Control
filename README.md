@@ -7,7 +7,7 @@ Intelligent vehicle algorithm design to achieve the following two functions:
 ## Platform 
 - Visual Studio 2010
 - CyberTORCS  
-![CyberTORCS](https://github.com/jiayuebao/CyberTORCS-Intelligent-Vehical-Control/blob/master/pictures/CyberTORCS.png?raw=true)
+![CyberTORCS](https://github.com/jiayuebao/Intelligent-Vehicle-Control/blob/master/pictures/CyberTORCS.png?raw=true)
 
 ## Aim
 - **following**: The average distance between the two cars is kept at 20m.
@@ -16,7 +16,7 @@ Intelligent vehicle algorithm design to achieve the following two functions:
 
 ## Algorithm 
 ### Part 1: self-following
-![following](https://github.com/jiayuebao/CyberTORCS-Intelligent-Vehical-Control/blob/master/pictures/following.png?raw=true)
+![following](https://github.com/jiayuebao/Intelligent-Vehicle-Control/blob/master/pictures/following.png?raw=true)
 - **speed control**  
 The **relative speed**, **relative acceleration** and **relative distance on x axis** of the two vehicles are used as control variables for speed control. Adopted a **linear** combination of these three.   
 
@@ -42,8 +42,8 @@ Control the deviation between the **actual speed** and **expected speed**.
 
 - **direction control**  
 Control the **yaw error between the parking space orientation and vehicle orientation** and the **y distance error between the vehicle center and parking space center***.
-![following](https://github.com/jiayuebao/CyberTORCS-Intelligent-Vehical-Control/blob/master/pictures/parking.png?raw=true)
-![following](https://github.com/jiayuebao/CyberTORCS-Intelligent-Vehical-Control/blob/master/pictures/parking2.png?raw=true)
+![following](https://github.com/jiayuebao/Intelligent-Vehicle-Control/blob/master/pictures/parking.png?raw=true)
+![following](https://github.com/jiayuebao/Intelligent-Vehicle-Control/blob/master/pictures/parking2.png?raw=true)
 
 
 ## Results
