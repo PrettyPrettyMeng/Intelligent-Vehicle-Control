@@ -4,18 +4,18 @@ Intelligent vehicle algorithm design to achieve the following two functions:
 - self-following
 - self-parking 
 
-#### Platform 
+## Platform 
 - Visual Studio 2010
 - CyberTORCS  
 ![CyberTORCS](https://github.com/jiayuebao/CyberTORCS-Intelligent-Vehical-Control/blob/master/pictures/CyberTORCS.png?raw=true)
 
-#### Aim
+## Aim
 - **following**: The average distance between the two cars is kept at 20m.
 - **parking**: The vehicle is able to be parked into the parking space by tail or head. with high parking speed and accuracy (deviation of the four vertices from the standard position of the vehicle). 
 
 
-#### Algorithm 
-#### Part 1: self-following
+## Algorithm 
+### Part 1: self-following
 ![following](https://github.com/jiayuebao/CyberTORCS-Intelligent-Vehical-Control/blob/master/pictures/following.png?raw=true)
 - **speed control**  
 The **relative speed**, **relative acceleration** and **relative distance on x axis** of the two vehicles are used as control variables for speed control. Adopted a **linear** combination of these three.   
@@ -35,7 +35,7 @@ The **relative distance on y axis** of the two cars is used as direction control
 1.  **Point brake** for sharp turning protection. 
 2.  **Optimal gear shifting** to make the acceleration faster; when the distance is too far, drop it directly, making the slowdown faster. 
 
-#### Part 2: self-parking
+### Part 2: self-parking
 
 - **speed control**  
 Control the deviation between the **actual speed** and **expected speed**. 
@@ -46,7 +46,7 @@ Control the **yaw error between the parking space orientation and vehicle orient
 ![following](https://github.com/jiayuebao/CyberTORCS-Intelligent-Vehical-Control/blob/master/pictures/parking2.png?raw=true)
 
 
-#### Results
+## Results
 For the following part, the testing was done on 33 different leading cars. For the parking part, testing was done on 5 different parking places. There was a hidden test case on the final competition for both parts.
 
 |           | following    | parking  |
