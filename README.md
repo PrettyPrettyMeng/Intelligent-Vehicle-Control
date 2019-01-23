@@ -1,4 +1,4 @@
-# CyberTORCS-Intelligent-Vehicle-Control
+# Intelligent-Vehicle-Control
 
 Intelligent vehicle algorithm design to achieve the following two functions:
 - self-following
