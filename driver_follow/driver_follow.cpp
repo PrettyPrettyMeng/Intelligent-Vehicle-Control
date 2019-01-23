@@ -216,7 +216,7 @@ static void userDriverSetParam(float* cmdAcc, float* cmdBrake, float* cmdSteer, 
 		steerflag=1;
 	}
     
-    // corner case 
+    // direction control
 	else if(abs(_midline[0][0])>6.2&&abs(r)>120||abs(_midline[0][0])>8&&abs(r)<120||_Leader_Y>37)
 	{
         *cmdSteer=(_yaw -8*atan2( _midline[55][0],_midline[55][1]))/3.14;steerflag=2;
@@ -341,4 +341,15 @@ float Radius( int Point1, int Point2, int Point3 )
 	
     int sign = ( x > 0 ) ? 1 : -1; // -1: turn left, 1: turn right
 	return sign*r;
+}
+
+// constrain the upperbound and lowerbound for input
+double constrain(double lowerBoundary, double upperBoundary,double input)
+{
+    if (input > upperBoundary)
+        return upperBoundary;
+    else if (input < lowerBoundary)
+        return lowerBoundary;
+    else
+        return input;
 }
